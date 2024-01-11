@@ -1,5 +1,0 @@
-Run the code if their is any error then search errror on youtube and solve that error is for 
-"node_Module" file which is too much big so not kept in pc 
-
-
-otherwise check this code on codesandbox.io online compiler 
