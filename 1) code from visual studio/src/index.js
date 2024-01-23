@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // // import Lifecycle_in_functional_code this file for runn code 
 // import Lifecycle_in_functional_code from './1_react-functional-lifecycle/Lifecycle_in_functional_code';
@@ -26,7 +28,20 @@ import reportWebVitals from './reportWebVitals';
 
 
 // // import LifeCycle  file from 7_simple_life_cycle
- import LifeCycle from './7_Simple_life_cycle_explanation/LifeCycle'
+ //import LifeCycle from './7_Simple_life_cycle_explanation/LifeCycle'
+
+
+
+ // // import Wrapper  file from 8_Wrapper_in_react/Wrapper
+ //import Wrappers from './8_Wrapper_in_react/Wrappers'
+
+
+ // // import Router  file from ./9_Roouter_in_react/router
+ // import Exrouter from './9_Roouter_in_react/Exrouter';
+
+// // import Router  file from './11_Fetch_data_from_JSON/Profile'
+import Profile from './11_Fetch_data_from_JSON/Profile';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -58,7 +73,28 @@ root.render(
 
 
   {/* import LifeCycle component from 7_simple_life_cycle */ }
-  <LifeCycle />
+  {/* <LifeCycle /> */}
+
+
+  {/* import wrapper from 8_Wrapper_in_react/Wrapper */ }
+  {/* < Wrappers /> */}
+
+
+
+
+  {/* 1st import BrowserRouter and then import router from 9_router_in_react/router  */}
+  {/* 
+  <BrowserRouter>
+  <Exrouter/>
+  </BrowserRouter>
+
+  not run this code please try to solve error and solve again
+*/}
+
+
+
+  {/* import component profile from './11_Fetch_data_from_JSON/Profile' */}
+  <Profile />
 
   </React.StrictMode>
 );
